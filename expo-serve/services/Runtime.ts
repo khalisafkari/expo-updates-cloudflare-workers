@@ -1,6 +1,5 @@
 import { getContext } from "hono/context-storage";
 import { Env } from "../utils/env";
-import * as JSzip from 'jszip';
 
 interface ValueKey {
     name: string;
