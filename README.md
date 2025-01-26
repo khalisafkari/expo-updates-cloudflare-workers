@@ -1,0 +1,2 @@
+# expo-updates-cloudflare-workers
+Custom server untuk aplikasi Expo menggunakan Cloudflare Workers untuk menangani pembaruan over-the-air (OTA) dengan lebih cepat dan efisien. Proyek ini dirancang untuk memanfaatkan kecepatan dan skalabilitas Cloudflare Workers guna meng-host dan melayani file pembaruan aplikasi, sekaligus menjaga integrasi dengan layanan Expo Updates.

@@ -1,0 +1,31 @@
+{
+  "name": "expo-serve",
+  "scripts": {
+    "dev": "wrangler dev --port 3000",
+    "deploy": "wrangler deploy --minify",
+    "deploy:local": "wrangler d1 migrations apply expo-d1-dev --local",
+    "deploy:remote": "wrangler d1 migrations apply expo-d1-dev --remote",
+    "db": "drizzle-kit generate && bun run deploy:local"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.2",
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.2",
+    "drizzle-orm": "^0.38.4",
+    "file-type": "^20.0.0",
+    "fs": "^0.0.1-security",
+    "hono": "^4.6.17",
+    "jszip": "^3.10.1",
+    "mime": "^4.0.6",
+    "path": "^0.12.7",
+    "pretty-bytes": "^6.1.1",
+    "unstorage": "^1.14.4",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250121.0",
+    "@expo/config": "^10.0.8",
+    "@types/node": "^22.10.7",
+    "wrangler": "^3.105.0"
+  }
+}

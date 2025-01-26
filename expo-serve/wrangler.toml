@@ -1,0 +1,37 @@
+name = "expo-serve"
+main = "src/index.ts"
+compatibility_date = "2025-01-20"
+compatibility_flags = [ "nodejs_compat" ]
+
+# [vars]
+# MY_VAR = "my-variable"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "expo-d1-dev"
+database_id = "a3b9ef76-3d03-4b9e-bb1e-f6201fe78585"
+migrations_dir = "drizzle/migrations"
+
+[[kv_namespaces]]
+binding = "expo_kv_dev"
+id = "c0989cfaa4844e4082564340aadbae21"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
